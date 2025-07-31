@@ -1,12 +1,46 @@
-# React + Vite
+# Desafia para vaga Front-End com Vite, Tailwind e React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Neste desafio é utilizando **Vite**, **Tailwind CSS** e **React**. O objetivo é desenvolver uma aplicação web que realiza requisições a uma API externa e as exibe.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vite**: Build tool e dev server.
+- **React**: Biblioteca para construção de interfaces.
+- **Tailwind CSS**: Framework CSS utilitário.
+  
+## Pré-requisitos
 
-## Expanding the ESLint configuration
+Antes de rodar o projeto, você precisa ter o **Node.js** e o **npm** instalados na sua máquina. Caso ainda não tenha, você pode instalar o Node.js através do [site oficial](https://nodejs.org/).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como rodar o projeto
+
+Siga os passos abaixo para rodar o projeto em sua máquina local:
+
+1. **Clone o repositório**
+
+   Primeiro, clone o repositório do projeto para o seu computador:
+
+   ```bash
+   git clone https://link-do-seu-repositorio.git
+   cd nome-do-repositorio
+   ```
+   
+2. **Instale as dependências**
+
+   Após clonar o repositório, instale as dependências utilizando o npm:
+
+   ```bash
+   npm install
+   ```
+Isso vai instalar todas as dependências necessárias para o funcionamento do projeto.
+
+3. **Inicie o servidor de desenvolvimento**
+
+   Agora, você pode rodar o servidor de desenvolvimento local:
+
+   ```bash
+    npm run dev
+   ```
+   Após rodar o comando, o Vite irá iniciar o servidor local e você poderá acessar o projeto no seu navegador através do endereço: http://localhost:5173
+
+
